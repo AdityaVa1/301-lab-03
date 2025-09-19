@@ -1,4 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -7,13 +8,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:importantForAutofill="no"
         android:inputType="text"
-        android:text="City" />
+        android:text="@string/city"
+        tools:ignore="LabelFor" />
     <EditText
         android:id="@+id/edit_text_province_text"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="text"
-        android:text="Province" />
+        android:text="@string/province"
+        tools:ignore="LabelFor" />
 </LinearLayout>
