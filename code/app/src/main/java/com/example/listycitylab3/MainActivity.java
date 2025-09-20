@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements
             City cityToEdit = dataList.get(position);
 
             EditCityFragment editFragment = EditCityFragment.newInstance(cityToEdit);
-            editFragment.show(getSupportFragmentManager(), "EDIT_CITY");
+            editFragment.show(getSupportFragmentManager(), "Edit City");
         });
     }
 }

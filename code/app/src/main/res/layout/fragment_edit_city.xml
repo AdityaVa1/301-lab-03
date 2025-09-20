@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <EditText
-        android:id="@+id/add_text_city_text"
+        android:id="@+id/edit_text_city_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -13,7 +13,7 @@
         android:text="@string/city"
         tools:ignore="LabelFor" />
     <EditText
-        android:id="@+id/add_text_province_text"
+        android:id="@+id/edit_text_province_text"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:autofillHints=""
